@@ -1,0 +1,112 @@
+.btns {
+  width: 118px;
+  height: 16px;
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+
+
+.discuzBtn {
+  display: none;
+}
+.discuzBtn {
+  margin-left: 16px;
+  padding: 0 5px 0 20px;
+  font-size: 14px;
+  color: #d3d3d3;
+  line-height: 14px;
+  height: 16px;
+  background: url(http://mat1.gtimg.com/news/skeetershi/news_index/img/icons.png) no-repeat -63px -33px;
+}
+.discuzBtn, .shareBtn {
+  float: right;
+  display: inline;
+  cursor: pointer;
+}
+a {
+  outline: 0;
+  color: #222;
+}
+
+
+
+.discuzBtn, .shareBtn {
+  float: right;
+  display: inline;
+  cursor: pointer;
+}
+
+
+.shareBtn {
+  width: 19px;
+  height: 15px;
+  background: url(http://mat1.gtimg.com/news/skeetershi/news_index/img/icons.png) no-repeat 0 -33px;
+  margin-left: 9px;
+  position: relative;
+  overflow: hidden;
+}
+.shares{
+  width: 95px;
+  padding: 6px 0;
+  position: absolute;
+  border: 1px solid #f0f0f0;
+  top: 24px;
+  left: -12px;
+  z-index: 2;
+  background: #fff;
+  font-size:12px;
+}
+
+.shareBtn:hover{
+  overflow: inherit;
+  z-index:999;
+}
+.shares .jiantou {
+  display: block;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: url(http://mat1.gtimg.com/news/skeetershi/world/img/icons.png) 0 -105px no-repeat;
+  top: -8px;
+  left: 14px;
+}
+
+.shares .shareButton {
+  height: 26px;
+  cursor: pointer;
+  margin: 0;
+  color: grey;
+  overflow: hidden;
+  clear: both;
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+
+.shares #share2wb a {
+  background-position: 13px -1421px;
+}
+.shares .shareButton a {
+  display: block;
+  padding-left: 37px;
+  display: block;
+  background: url(http://mat1.gtimg.com/news/news2013/img/icons.png) no-repeat;
+}
+
+.shares #share2qzone a {
+  background-position: 13px -1448px;
+}
+
+.shares #share2qq a {
+  background-position: 13px -1473px;
+}
+
+.shares #share2sina a {
+  background-position: 13px -1499px;
+}
+
+
+.social-share{
+  margin-top:30px;
+}

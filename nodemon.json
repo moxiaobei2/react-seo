@@ -1,0 +1,21 @@
+{
+  "verbose": false,
+  "watch": [
+    "app/server.jsx",
+    "app/App.jsx",
+    "app/Home.jsx",
+    "app/list.jsx",
+    "app/Detail.jsx",
+    "app/helmconfig.js",
+    "app/components/Meta.jsx",
+    "app/components/CubeSpinnerComponent.jsx",
+    "app/components/PListComponent.jsx",
+    "app/components/WrapListComponent.jsx",
+    "app/components/ShareComponent.jsx",
+    "app/routes.jsx",
+    "server",
+    "webpack",
+    "css/*"
+  ],
+  "exec": "npm run build:dev && node server/index.js"
+}
